@@ -1,9 +1,9 @@
-package net.likelion.bebc25.spring;
+package net.likelion.bebc25.spring.aop.staticproxy;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class SpringCoreApplication {
+public class SpringStaticProxyApplication {
     void main(){
 
         //1. 스프링 컨테이너 생성(bean 정보 분석을 위한 config 객체 지정)
